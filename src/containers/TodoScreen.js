@@ -84,7 +84,7 @@ class TodoScreen extends Component {
             <TouchableOpacity onPress={this._onPressAdd}>
             <Image 
                 style={{width: 50, height: 50, }}
-                source={require('./icon/plus.png')} 
+                source={require('../icon/plus.png')} 
             />
             </TouchableOpacity>
         </View>
