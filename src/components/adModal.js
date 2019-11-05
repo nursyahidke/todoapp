@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 import Modal from 'react-native-modalbox';
 import Button from 'react-native-button';
-import firebase from './config';
+import firebase from '../config/config';
 
 const screen = Dimensions.get('window');
 

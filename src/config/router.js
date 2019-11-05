@@ -1,8 +1,8 @@
 import { createAppContainer, createSwitchNavigator } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 
-import TodoScreen from './TodoScreen';
-import DoneScreen from './DoneScreen';
+import TodoScreen from '../containers/TodoScreen';
+import DoneScreen from '../containers/DoneScreen';
 
 const MainNavigator = createStackNavigator(
     {

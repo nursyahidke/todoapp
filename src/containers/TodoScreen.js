@@ -9,8 +9,8 @@ import {
     StyleSheet,
 } from 'react-native';
 import { withNavigation } from 'react-navigation';
-import firebase from './config';
-import AddModal from './adModal';
+import firebase from '../config/config';
+import AddModal from '../components/adModal';
 
 class TodoScreen extends Component {
     constructor(props){
